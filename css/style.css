@@ -564,3 +564,26 @@
     letter-spacing: 1px;
     box-shadow: none;
 }
+.button-whatsapp {
+    display: inline-flex;
+    align-items: center;    
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+/* Efectos al pasar el ratón por el botón */
+.button-whatsapp:hover {
+    background-color: #1EBE56;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+.button-whatsapp:active {
+    background-color: #169E49;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
